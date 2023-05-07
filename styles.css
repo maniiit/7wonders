@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.114),rgba(0, 0, 0, 0.748)), url(pictures/eso1132e.jpg);
+    background-position: center;
+    background-size:contain;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+}
+.col{
+    width: 100%;
+    height: 100vh;
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.081)), url(pictures/Exceptional-earth.jpg);
+    background-position: center;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 50%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 12%;
+    display:flex;
+    align-items: center;
+}
+.navbar ul li {
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+
+
+}
+.navbar ul li a {
+    text-decoration: none;
+
+}
+
+.signature{
+    width: 250px;
+    cursor: pointer;
+    margin-left: -140px;
+}
+.icon{
+    width: 35px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#fff ;
+    font-size: 13px; 
+    text-transform: uppercase;   
+
+}
+.navbar ul li::after{
+content: '';
+height: 3px;
+width: 0;
+background: #ffffff;
+position: absolute;
+left: 0;
+bottom: -5px;
+transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.row{
+    display: flex;
+    height: 90%;   
+    align-items: center;
+
+}
+.col{
+        flex-basis: 200%;
+}
+h1{
+color: #ffffff;
+font-size: 100px;   
+transition: transform 0.5s;
+}
+h1:hover{
+    transform: translateY(-10px);
+}
+p{
+    color: #fff;
+    position: center;
+    font-size: 15px;
+    line-height: 15px;
+    transition: tranform 1s;
+    
+}
+p:hover{
+    transform: translateY(1px);
+
+}
+button{
+    width: 180px;
+    color: #0a0a0a;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 0;
+    background: #ffffff;
+    outline: none;
+    text-align: center; 
+    position: relative;
+    cursor: pointer;
+    overflow:hidden;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: -10px
+    
+    
+}
+span{
+    background: #6c94d15c;
+    padding: 10%;
+    height: 90%;
+    width: 0;
+    border-radius: 10px;
+    position: absolute;
+    left: -40px;
+    bottom: 0px;
+    transition: 0.5s;
+
+}
+button:hover span{
+    width: 125%;
+    text-emphasis: 50%;
+}
+button:hover{
+    border: none;   
+}
+
+.card{
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(pictures/lifelist-giza-631.jpg);
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+    box-shadow: 0 0 5px #00000088;
+    position: relative;
+    left: 125px;
+    top:200px;
+    
+
+}
+.sname{
+    position: absolute;
+    align-items: center;
+    left: 325px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    letter-spacing: 4x;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:2px;
+
+
+
+}
+
+.card1{
+    background-image: url(pictures/lifelist-giza-631.jpg);
+}
+.card2{
+    background-image: url(pictures/The_Great_Wall_of_China_at_Jinshanling-edit.jpg);
+}
+.card3  {
+    background-image: url(pictures/gettyimages-1438577469.jpg);
+    position: relative;
+    top: 215px;
+    bottom: 100px;
+}
+.card4{
+    background-image: url(pictures/gettyimages-930500756_wide-89e4b501eeb89f97aa7567f9cc088bd91866a991.jpg);
+    position: relative;
+    top:215px
+}
+.card5{
+    background-image: url(pictures/Colosseum_portrait_1_-tSa-1200X630.jpeg);
+    position: relative;
+    top:450px;
+    right:200px;
+    left: -215px;
+}
+.card6{
+    background-image: url(pictures/360-christ-videoSixteenByNineJumbo1600-v2.jpg);
+    position: relative;
+    right: 350px;
+    left: 220px;
+    
+
+}
+.card7{
+    background-image: url(pictures/download\ \(3\).jpeg);
+    position: relative;
+    left: 250px;
+
+
+}
+
+
+.card:hover
+{
+    transform: translateY(-10px);
+}
+h5{
+    text-shadow: 0 0 5px #000000;
+    color: #ffffff;
+}
+.card p{
+    text-shadow: 0 0 15px #000000;
+    font-size: 12px;
+    color: #ffffff;
+}
+.abouttxt h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.sec3{
+    background-image:linear-gradient(rgba(64, 132, 250, 0.267),rgba(0, 0, 0, 0.748)) ,url(pictures/eso1132e.jpg);
+    background-position: center;   
+    padding-bottom: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.credit p{
+    color: rgb(254, 254, 254);
+    text-align: center;
+}
+.earth{
+
+position: relative;
+left: 450px;
+top: 100px;
+height: 350px;
+transition: 0.5s;
+}
+.earth:hover{
+transform: translateY(-30px);
+}
